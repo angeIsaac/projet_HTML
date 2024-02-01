@@ -1,0 +1,7 @@
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio    		# pour la balise audio
+
+https://webplatform.github.io/docs/guides/html_lists/				# les listes html
+
+https://www.html-5-tutorial.com/div-tag.htm					# les Div
+
+https://www.tutorialspoint.com/html/html_forms.htm				# les formulaire en html
