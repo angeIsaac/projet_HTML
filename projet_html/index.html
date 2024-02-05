@@ -3,21 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
+    <title>Document</title>
 </head>
 <body>
-    <!-- La barre de navigation -->
-    <header>
-        <nav>
-            <a href="#"> à propos</a>
-            <a href="#">Travail</a>
-            <a href="#">CV</a>
-            <a href="#">Contact</a>
-            <h1>Bienvenue sur notre page web</h1>
-        </nav>   
+    <header style="background-color: bisque;height: 250px" >
+        <nav style="font-family: 'Courier New', Courier, monospace;margin: 40px;font-size: large;text-align: center;">
+            <a href="#">Acceuill</a>
+            &nbsp;
+            <a href="#apropos">A propos</a>
+            &nbsp;
+            <a href="#cv">CV</a>
+            &nbsp;
+            <a href="#contactezNous">contactez-nous</a>
+            
+        </nav>
     </header>
-    <section>
-        
-    </section>
+    <main>
+        <section style="height: 160px;background-color:beige" name="cv">
+            <h1> CV </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Quo vero, eius accusamus ea voluptates doloremque numquam 
+                explicabo reprehenderit, totam nulla fuga itaque rem? Possimus 
+                debitis aperiam reiciendis perferendis! Quos, facere!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Eaque quasi quam facere magni dolorem, placeat dignissimos eligendi sequi, 
+                culpa molestias fugit similique voluptate commodi assumenda, 
+                nobis veritatis numquam veniam suscipit.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Dignissimos ad corrupti quasi voluptatibus 
+                incidunt aliquam dolorum, consequuntur rerum, 
+                voluptatem similique quod quisquam non amet magnam pariatur in, eaque iste cum?
+            </p>
+        </section>
+        <aside style="height: 200;">
+            <figure style="box-shadow: 0cqmin;text-align: center;">
+                <img src="photo_2023-06-18_19-54-25.jpg" alt="une photo" style="height: 400px;width:400px">
+            </figure>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quidem sed 
+                voluptate id molestias consequatur cum mollitia assumenda suscipit 
+                harum expedita modi debitis veritatis, necessitatibus vero eos asperiores amet non?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius ducimus illum id exercitationem 
+                quia reiciendis esse obcaecati pariatur sunt assumenda? Modi atque hic maiores accusamus, 
+                ut consequuntur ducimus nam nostrum!
+            </div>
+        </aside>
+        <section>
+            <div>
+                <h1>LA deuxieme section</h1>
+                <iframe 
+                    width="560" height="315" 
+                    src="https://www.youtube.com/embed/hffirAmp6_I?si=WLteY9dgXPlm7hwA" 
+                    title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Ducimus, numquam cumque esse non ipsum facilis incidunt
+                    quos tempore eos. Cum, quaerat. 
+                    Amet tempora facilis animi error explicabo provident illo doloremque.
+                </p>
+            </div>
+            <div>
+                <audio controls>
+                    <source src="#" type="audio/mpeg"/>
+                </audio>
+            </div>
+        </section>
+        <section >
+            <a name="apropos"><h1>A Propos</h1></a>
+             
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere veniam error 
+                consequatur suscipit, voluptatum, explicabo quibusdam mollitia autem asperiores 
+                pariatur fugit libero saepe impedit vitae, commodi ut quod aliquam. Aliquid?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit soluta ipsum 
+                mollitia placeat ad iusto doloribus sequi, natus deserunt autem facilis est at optio, cum,
+                modi molestiae dolores numquam rerum.
+            </p>
+            <h4><a href="#"> En savoir plus</a> ou <a href="#"> contactez-nous</a></h4>
+        </section>
+        <section>
+            <a name="contactezNous"><h1>contactez-nous</h1></a>
+            <form action="#">
+                <label for="#"> Nom:</label><br>
+                <input type="text"><br>
+                <label for="#">Prenom: </label><br>
+                <input type="text"><br>
+                <label for="">Email</label><br>
+                <input type="mailto"><br>
+                <label for="">date de naissance</label><br>
+                <input type="date"><br>
+                <label for="">Genre</label><br>
+                <input type="text">
+            </form>
+        </section>
+    </main>
 </body>
 </html>
