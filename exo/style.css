@@ -1,0 +1,17 @@
+*{
+    font-family: "manrope", "sans-serif";
+    font-size: 1.1em;
+}
+p{
+    border: 5px hidden rgb(245, 188, 84);
+    background-color: bisque;
+    font-family: "manrope", "sans-serif";
+    text-align: justify;
+}
+
+table{
+    margin-left: 3em;
+}
+h2{
+    color: #83c4a2f2;
+}

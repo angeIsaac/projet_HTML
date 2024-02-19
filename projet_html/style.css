@@ -1,0 +1,23 @@
+body{
+    font-family: "manrope", "sans-serif";
+    font-family: 1em;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    margin-inline-end: 1.8em;
+    font-family: "montserrat", "sans-serif";
+    font-size: 1.1em;
+    border: 13px hidden none;
+    margin-top: 1em;
+    color: white;
+}
+nav{
+    text-align: right;
+    margin-right: 10em;
+    display: block;
+}
+header{
+    background-color: #60a1b6;
+    height: 5em;
+}

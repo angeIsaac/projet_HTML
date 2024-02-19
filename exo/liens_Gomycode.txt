@@ -1,0 +1,24 @@
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio    		# pour la balise audio
+
+https://webplatform.github.io/docs/guides/html_lists/				# les listes html
+
+https://www.html-5-tutorial.com/div-tag.htm					# les Div
+
+https://www.tutorialspoint.com/html/html_forms.htm				# les formulaire en html
+
+https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer		# developpeur front-end
+
+https://www.youtube.com/watch?v=qKoajPPWpmo					# historique du css 
+
+https://www.htmlhelp.com/reference/css/style-html.html				# insérer le css dans le html
+
+https://www.corelangs.com/css/basics/id-selectors.html				# sélecteurs css
+
+https://css-tricks.com/almanac/properties/p/padding/				# padding
+
+https://css-tricks.com/almanac/properties/m/margin/				# margin
+
+https://www.tutorialspoint.com/css/css_borders.htm				# bordure
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius			# rayon de bordure
+

@@ -5,3 +5,44 @@ https://webplatform.github.io/docs/guides/html_lists/				# les listes html
 https://www.html-5-tutorial.com/div-tag.htm					# les Div
 
 https://www.tutorialspoint.com/html/html_forms.htm				# les formulaire en html
+
+https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer		# developpeur front-end
+
+https://www.youtube.com/watch?v=qKoajPPWpmo					# historique du css 
+
+https://www.htmlhelp.com/reference/css/style-html.html				# insérer le css dans le html
+
+https://www.corelangs.com/css/basics/id-selectors.html				# sélecteurs css
+
+https://css-tricks.com/almanac/properties/p/padding/				# padding
+
+https://css-tricks.com/almanac/properties/m/margin/				# margin
+
+https://www.tutorialspoint.com/css/css_borders.htm				# bordure
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius			# borer-radius
+
+https://www.w3schools.com/CSSref/pr_class_display.asp				# display (affichage)
+
+https://developer.mozilla.org/fr/docs/Web/CSS/color_value#les_mots-cl%C3%A9s	# color (couleur)
+
+https://htmlcolorcodes.com/color-picker/					# pour les couleur
+
+https://developer.mozilla.org/fr/docs/Web/CSS/background			# docs background
+
+https://www.datacamp.com/tutorial/mongodb-tutorial-how-to-set-up-and-query-mongodb-databases	# mango DB (base de donnée )
+
+https://getcssscan.com/css-box-shadow-examples					# pour les ombres css 
+
+https://developer.mozilla.org/fr/docs/Web/CSS/Next-sibling_combinator		# combinateur d'élément 
+
+https://www.w3.org/Style/css3-selectors-updates/WD-css3-selectors-20010126.fr.html#selectors	# sélecteur 
+
+https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Grid_Layout			# css grid
+
+https://developer.mozilla.org/fr/docs/Web/CSS/display				# la liste des valeur de display
+
+https://learnlayout.com/inline-block.html					# l'affichage avec display
+
+https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/range		# la balise input et sont attribut "type"
+
