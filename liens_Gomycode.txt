@@ -46,3 +46,5 @@ https://learnlayout.com/inline-block.html					# l'affichage avec display
 
 https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/range		# la balise input et sont attribut "type"
 
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox	# flex box
+
