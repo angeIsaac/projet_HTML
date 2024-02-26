@@ -1,0 +1,66 @@
+body {
+  font-size: 1.2em;
+  font-family: "manrope", sans-serif;
+}
+
+.heroique {
+  background-image: url(image/menu/pexels-senuscape-2313686.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px;
+  background-attachment: fixed;
+}
+
+.titre-color {
+  color: #ffbe76;
+}
+
+.nav-lien a {
+  margin-left: 12px;
+  padding: 12px;
+  font-family: "montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+  font-size: 1.1em;
+}
+.nav-lien a:hover {
+  color: #ffbe76;
+  opacity: 75%;
+  text-decoration: underline;
+  font-size: 1.2em;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.img-taile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 70px;
+}
+
+.bg-img {
+  background-image: url(image/contact/pexels-senuscape-2313682.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px;
+  background-attachment: fixed;
+}
+
+.bg-color {
+  background-color: #fdfafa;
+}/*# sourceMappingURL=style.css.map */

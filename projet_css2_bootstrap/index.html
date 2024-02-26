@@ -1,11 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap-5.3.3/css/bootstrap.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>touché</title>
 </head>
 <body>
-    
+    <!-- l'en-tete de la pge  -->
+    <header>
+        <div class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div  class="row">
+                    <div class="col-6 titre-color pacifico-regular">
+                        <h1>Touché</h1></div>
+                    </div>
+                    <div class="col-6 d-flex flex-row justify-content-end">
+                        <div class="d-block">
+                            <nav class="nav-lien">
+                                <a class="link-offset-3" href="" >Accueill</a>
+                                <a href="#menu" class="link-offset-3">Menu</a>
+                                <a href="#apropos" class="link-offset-3">A propos de nous</a>
+                                <a href="#contact" class="link-offset-3">Contact</a> 
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- la section heroique de la page -->
+        <div class="heroique container-fluid text-light text-center">
+            <div class="container">
+                <div class="p-8">
+                    <h1 class="mb-3 fs-1 titre-color px-12 py-8  pacifico-regular">🍽️ Bienvenue chez Touché L'art de la saveur 🍽️</h1>
+                    <p class="lead roboto-regular fs-5">
+                        Que vous soyez un amateur de cuisine raffinée ou simplement à la recherche d'une pause gourmande, 
+                        Touché vous offre une escapade gustative exceptionnelle. 
+                        Plongez dans un univers de délices où la présentation 
+                        exquise rencontre des saveurs exquises.
+                    </p>
+                </div>
+                <div class="d-flex flew-row justify-content-center ">
+                    <div>
+                        <a class="btn btn btn-primary px-5 mx-2 roboto-regular" href="#contact">Reservé</a>
+                    </div>
+                    <div>
+                        <a class="btn btn-outline-warning mx-2 roboto-regular" href="#contact">Contactez-Nous</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container ">
+            <!-- la section menu -->
+            <h2 class="text-center titre-color pacifico-regular mb-5 mt-3" id="menu">Menu</h2>
+            <div class="row">
+                <p class="col-12 roboto-regular">
+                    Explorez notre menu alléchant, réservez votre table et laissez-vous emporter par 
+                    l'expérience culinaire unique de "Touché". Nous sommes impatients de vous accueillir et de 
+                    transformer chaque repas en une symphonie de goûts et de plaisirs.
+                </p>
+                <div>
+                    <!-- les different plat de notre menu -->
+                    <figure class="row p-3 figure-img img-fluid gy-5 gx-5 d-flex">
+                            <div class="col-6 ">
+                                <div class="card img-taile shadow">
+                                    <img src="image/menu/pexels-senuscape-2313686.jpg"  alt="phpto-menu" class=" card-img-top align-self-center shadow-lg mt-2">
+                                    <h2 class="text-center card-subtitle pacifico-regular align-self-end">200 f</h2>
+                                    <p class="text-start card-text p-4">
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis 
+                                        ipsam voluptas temporibus necessitatibus incidunt. Eos, vitae voluptas. 
+                                        Sequi, architecto, ad dolores et ducimus facilis accusantium officiis 
+                                        hic, dicta vero laudantium.
+                                    </p>
+                                    <div class="align-self-center mb-3">
+                                        <a href="#conatact" class="btn btn-outline-primary">Commandé</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6" >
+                                <div class="card img-taile shadow">
+                                    <img class="card-img-top align-self-center shadow-lg mt-2" src="image/menu/pexels-jang-‘s-🍂-699953.jpg" alt="photo-menu">
+                                    <h2 class="text-center card-subtitle pacifico-regular align-self-end titre-color">200 f</h2>
+                                    <p class="text-start p-4 card-text roboto-regular">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Debitis possimus hic perferendis inventore adipisci alias 
+                                        vel neque eius ut recusandae. Tenetur cum illo ipsam ex 
+                                        nesciunt assumenda explicabo expedita ab.
+                                    </p>
+                                    <div class="align-self-center mb-3">
+                                        <a href="#contact" class="btn btn-outline-primary">Commandé</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card img-taile shadow">
+                                    <img src="image/menu/hunter-pastry-1319376.jpg" alt="photo-image "  class="card-img-top align-self-center shadow-lg mt-2">
+                                    <h2 class="text-center card-subtitle pacifico-regular align-self-end titre-color">200 f</h2>
+                                    <p class="text-start p-4 card-text roboto-regular">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                        Quaerat inventore consequatur placeat, fuga tenetur ullam nulla ipsa 
+                                        tempore eligendi qui enim ratione culpa 
+                                        aut laboriosam. Nemo velit harum aspernatur nam!
+                                    </p>
+                                    <div class="align-self-center mb-4">
+                                        <a href="#contact" class="btn btn-outline-primary">Commandé</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6" >
+                                <div class="card img-taile shadow">
+                                    <img src="image/menu/pastry-dish-1514928.jpg" alt="photo-menu" class="card-img-top align-self-center shadow-lg mt-2">
+                                    <h2 class="text-center card-subtitle pacifico-regular align-self-end titre-color">200 f</h2>
+                                    <p class="text-start p-4 card-text roboto-regular">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque 
+                                        eligendi magni eos doloribus numquam minima alias? Doloremque magni, 
+                                        unde assumenda quis maxime cum aspernatur quasi tempora similique, 
+                                        reprehenderit odit reiciendis.
+                                    </p>
+                                    <div class="align-self-center mb-3">
+                                        <a href="#contact" class="btn btn-outline-primary">Commandé</a>
+                                    </div>
+                                </div>
+                                </div>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid bg-img">
+            <div class="container">
+                <div class="row">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card img-taile shadow-lg">
+                                <img class="card-img-top align-self-center" src="image/contact/pexels-senuscape-2313682.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card img-taile shadow-lg">
+                                <img class="card-img-top align-self-center" src="image/contact/pexels-julie-aagaard-2433868.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="row gy-2 gx-2">
+                            <div class="col">
+                                <div class="card img-taile shadow-lg">
+                                    <img class="card-img-top align-self-center" src="image/menu/pexels-valeria-boltneva-1199957.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card img-taile shadow-lg">
+                                    <img class="card-img-top align-self-center" src="image/menu/pexels-valeria-boltneva-1639556.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <!-- la section "A propos" -->
+            <h2 class="titre-color  pacifico-regular text-center mb-5" id="apropos">A propos de nous</h2>
+            <div class="row gx-5">
+                <div class="col-6 align-self-center">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Commodi, excepturi quos quia cupiditate, error sit quam quidem 
+                        laudantium harum itaque at aut magni exercitationem! Totam nihil 
+                        reprehenderit nostrum ex ipsum.
+                        Tempora ipsam alias et distinctio repudiandae accusamus amet 
+                        omnis, vel, fugiat rerum, sint quisquam assumenda nobis dolore 
+                        quod ducimus laudantium quam voluptatum reprehenderit praesentium 
+                        officia doloremque! Pariatur debitis ut nobis.
+                        Dicta repellendus, assumenda nemo dolorem earum, qui repudiandae minima 
+                        fugiat ducimus quasi officia amet, itaque fugit. Quaerat dicta repudiandae 
+                        exercitationem consequuntur deserunt tenetur, quidem hic possimus nesciunt 
+                    </p>
+                </div>
+                <div class="col-6">
+                    <!-- les images de nos chefs -->
+                    <figure class="row">
+                        <div id="carouselExampleCaptions" class="carousel slide"  data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="image/menu/pexels-jang-‘s-🍂-699953.jpg" class="d-block w-100" height="400" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>First slide label</h5>
+                                  <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="image/menu/pexels-kyle-roxas-2122294.jpg" class="d-block w-100" height="400" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Second slide label</h5>
+                                  <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="image/menu/pexels-pixabay-262978.jpg" class="d-block w-100" height="400" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Third slide label</h5>
+                                  <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </figure>
+            </div>
+            </div>
+        </section>
+        <section class="container">
+            <!-- la section contact -->
+            <div class="row">
+                <div class="col-8">
+                    <div>
+                        <form id="contact" action="" method="get" class="d-flex justify-content-start flex-column p-4 bg-color">
+                            <h2 class="text-center titre-color pacifico-regular">faite vos reserves n'attendez plus</h2>
+                            <div class="d-flex flex-column justify-content-between">
+                                <label class="form-label roboto-regular" for="nom">Nom</label>
+                                <input class="form-control ml-3" type="text" id="nom" name="nom">
+                            </div>
+                            <div class="d-flex flex-column justify-content-between ">
+                                <label class="form-label roboto-regular" for="prenom">Prenom</label>
+                                <input class="form-control " type="text" id="prenom" name="prenom">
+                            </div>
+                            <div class="d-flex flex-column justify-content-between my-2">
+                                <label class="form-label roboto-regular" for="email">Email</label>
+                                <input class="form-control" type="email" id="email" name="email">
+                            </div>
+                            <div class="d-flex flex-column justify-content-between">
+                                <label class="form-label roboto-regular" for="nbre-pers">nombres de personnes</label>
+                                <select class="form-select p-1" name="nbre-pers" id="nbre-pers">
+                                    <option value="1 personne">1 personne</option>
+                                    <option value="2 personnes">2 personnes</option>
+                                    <option value="3 personnes">3 personnes</option>
+                                    <option value="4 personnes">4 personnes</option>
+                                </select>
+                            </div>
+                            <div class="d-flex flex-column justify-content-between mb-3">
+                                <label class="form-label roboto-regular" for="nbre-commande">Nombre de commande</label>
+                                <input class="form-control" type="number" id="nbre-commande" name="nbre-commande" min="0" max="50">
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-primary">commander</button>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <!-- une image pour embelir le formulaire -->
+                    <div >
+                        <div class="row">
+                            <img class="imag-fuild align-self-center" src="image/pexels-pietro-jeng-671956.jpg" alt="photo-form" width="420" height="450" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <!-- le footer de notre page -->
+        <div>
+            <!-- partir des reseau sociaux -->
+
+        </div>
+
+    </footer>
+    <script src="bootstrap-5.3.3/js/bootstrap.min.js"></script>
 </body>
 </html>
