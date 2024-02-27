@@ -4,7 +4,7 @@ body {
 }
 
 .heroique {
-  background-image: url(image/menu/pexels-senuscape-2313686.jpg);
+  background-image: url(image/menu/wepik-export-20240227112348BkU9.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53,7 +53,7 @@ body {
 }
 
 .bg-img {
-  background-image: url(image/contact/pexels-senuscape-2313682.jpg);
+  background-image: url(image/menu/wepik-export-20240227104156OWLr.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -63,4 +63,41 @@ body {
 
 .bg-color {
   background-color: #fdfafa;
+}
+
+.color-apropos {
+  background-image: url(image/Margo\ \(5\).jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px;
+  background-attachment: scroll;
+}
+.color-apropos p {
+  text-align: justify;
+  font-variant: normal;
+  font-size: 1em;
+}
+
+.bg-card-img {
+  background-image: url(image/menu/wepik-export-20240227103318tG5n.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.w {
+  font-size: 35px;
+}
+
+.w-icon {
+  font-size: 25px;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 50px;
 }/*# sourceMappingURL=style.css.map */
