@@ -19,7 +19,7 @@ body{
 
 .nav-lien{
     a{
-        margin-left: 12px;
+        margin-left: 5px;
         padding: 12px;
         font-family: "montserrat", sans-serif;
         font-optical-sizing: auto;
@@ -27,7 +27,7 @@ body{
         font-style: normal;
         text-decoration: none;
         color: black;
-        font-size: 1.1em;
+        font-size: 1em;
     }
     a:hover{
         color: $couleur-lien;

@@ -48,3 +48,11 @@ https://developer.mozilla.org/fr/docs/Web/HTML/Element/input/range		# la balise 
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox	# flex box
 
+https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face			# @font-face 
+
+https://getbootstrap.com/docs/4.0/layout/grid/					# systeme de grille de bootstrap
+
+https://getbootstrap.com/docs/4.0/components/alerts/				# message alerte bootstrap
+
+https://developer.chrome.com/docs/devtools/overview?hl=fr			# outils de développement 
+
