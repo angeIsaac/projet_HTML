@@ -1,0 +1,103 @@
+body {
+  font-size: 1.2em;
+  font-family: "manrope", sans-serif;
+}
+
+.heroique {
+  background-image: url(image/menu/wepik-export-20240227112348BkU9.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px;
+  background-attachment: fixed;
+}
+
+.titre-color {
+  color: #ffbe76;
+}
+
+.nav-lien a {
+  margin-left: 12px;
+  padding: 12px;
+  font-family: "montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  color: black;
+  font-size: 1.1em;
+}
+.nav-lien a:hover {
+  color: #ffbe76;
+  opacity: 75%;
+  text-decoration: underline;
+  font-size: 1.2em;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.img-taile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 70px;
+}
+
+.bg-img {
+  background-image: url(image/menu/wepik-export-20240227104156OWLr.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px;
+  background-attachment: fixed;
+}
+
+.bg-color {
+  background-color: #fdfafa;
+}
+
+.color-apropos {
+  background-image: url(image/Margo\ \(5\).jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px;
+  background-attachment: scroll;
+}
+.color-apropos p {
+  text-align: justify;
+  font-variant: normal;
+  font-size: 1em;
+}
+
+.bg-card-img {
+  background-image: url(image/menu/wepik-export-20240227103318tG5n.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.w {
+  font-size: 35px;
+}
+
+.w-icon {
+  font-size: 25px;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+}/*# sourceMappingURL=style.css.map */

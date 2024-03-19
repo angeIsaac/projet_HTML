@@ -1,0 +1,206 @@
+@import "header";
+@import "fonction";
+body{
+    font-family: "manrope", sans-serif;
+    background-color: #03011d;
+    color: white;
+    font-size: 1.2em;
+    margin: 0;
+}
+section{
+    padding: 60px;
+}
+
+*{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+.en-tete{
+    @include header();
+    nav{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px;
+        a{
+            margin-left: 20px;
+            text-decoration: none;
+            color: black;
+            font-size: 1.3em;
+        }
+    }
+}
+
+.container{
+    @include container-flex(column);
+    h2{
+        padding: 20px;
+        margin: auto;
+        border-bottom: 1px solid white;
+        width: 3%
+    }
+}
+
+.flex-strt-center{
+    @include flex-strt-center(row-reverse, center);
+    a{
+        img{
+            width: 500px;
+            height: 200px;
+            object-fit:cover;
+        }
+    }
+    p{
+        padding: 20px;
+        text-align: justify;
+    }
+}
+
+.flex-strt-left{
+    @include flex-strt-center(row,flex-start);
+    color: black;
+    p{
+        text-align: justify;
+        margin-left: 18px;
+        margin-top: 30Px;
+        padding: 20px;
+        border-bottom: 1px solid black;
+    }
+    img{
+        height: 250px;
+        object-fit: cover;
+        width: 100%;
+    }
+}
+.bg{
+    background-color: #ffff;
+    div{
+        a{
+            font-family: "montserrat", sans-serif;
+            color: white;
+            text-decoration: none;
+            h2{
+                background-color: rgb(102, 102, 230);
+                width: 20%;
+                margin: auto;
+                text-align: center;
+                border: 1px solid white;
+                border-radius: 20px;
+                margin-top: 15px;
+                padding: 8px;
+                font-size: 1.1em;
+            }
+            h2:hover{
+                background-color: white;
+                color: black;
+                border: 1px solid rgb(102, 102, 230);
+                font-family: "manrope", sans-serif;
+            }
+        }
+    }
+        
+    }
+.back-image{
+    @include background-image("pexels-fauxels-3184339.jpg", scroll)
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    align-items: center;
+    h2{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        color: white;
+        margin-bottom: 20px;
+        font-size: 2.5em;
+    }
+    p{
+        padding: 30px;
+        text-align: justify;
+        font-size: 1.5em;
+    }
+    iframe{
+        width: 500px;
+        padding: 30px;
+        position: relative;
+        left: 20%;
+    }
+}
+
+.image-fixed{
+    @include background-image("pexels-andrea-piacquadio-3756679.jpg", fixed)
+}
+
+.grid-section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    img{
+        width: 600px;
+        object-fit: cover;
+    }
+    img:hover{
+        opacity: 75%;
+    }
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+    }
+}
+.a-propos{
+    padding: 80px;
+    text-align: justify;
+    h2{
+        width: 13%;
+        padding-bottom: 18px;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 30px;
+        border-bottom: 1px solid white;
+    }
+}
+
+.form{
+    @include container-flex(column);
+    align-items: center;
+    color: black;
+    padding: 50px;
+    fieldset{
+        border: none;
+        legend{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        input{
+            padding: 2px;
+            width: 100%;
+        }
+        input[type="genre"]{
+            position: relative;
+            top: 0;
+            width: 50%;
+            margin: auto;
+        }
+    }
+    input[type="submit"]{
+        color: white;
+        background-color: dodgerblue;
+        border: none;
+        width: 20%;
+        text-align: center;
+        margin: auto;
+        
+        padding: 10px;
+        border-radius: 20px;
+    }
+}

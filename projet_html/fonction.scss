@@ -1,0 +1,31 @@
+@mixin header(){
+    padding: 20px;
+    margin: 0 0 10px 0;
+    background-color: white;
+}
+
+@mixin flex-strt-center($direction, $direction_align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: $direction_align;
+}
+
+@mixin container-flex($direction_content){
+    display: flex;
+    flex-direction: $direction_content;
+}
+
+@mixin background-image($image, $attachment){
+    background-image: url($image);
+    background-position: center;
+    padding: 250px;
+    background-repeat: no-repeat;
+    background-attachment: $attachment;
+    background-size: cover;
+    margin: 0;
+    font-family: "montserrat", sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
